@@ -1,0 +1,637 @@
+* {
+    background-color: #e8e8e8;
+}
+/*TOP BAR*/
+#topbar {
+    background-color: #3b63e2;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    margin-top: -8px;
+    margin-left: -8px;
+    z-index: 1;
+}
+#fbmic {
+    height: 28px;
+    width: 28px;
+    float: left;
+    border-radius: 5%;
+    margin-left: 19%;
+    margin-top: 6px;
+}
+#searchbar {
+    float: left;
+    background-color: white;
+    height: 22px;
+    width: 23%;
+    margin-top: 9px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#searchtxt {
+    float:left;
+    margin-top: 3px;
+    margin-left: 5px;
+    background-color: white;
+}
+#searchicon {
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+    float:right;
+    margin-right: 2%;
+}
+#barname {
+    float:right;
+    font-family: "Arial Black" sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #3b63e2;
+}
+#barhome {
+    float:right;
+    font-family: "Arial Black" sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #3b63e2;
+}
+#myphoto {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: #3b63e2;
+}
+#friendrequestbutton {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    background-color: #3b63e2;
+}
+#messagesmalllogo {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    background-color: #3b63e2;
+}
+#notificationslogo{
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 8px;
+    margin-right:15px;
+    background-color: #3b63e2;
+}
+#privacylogo {
+    margin-top: 8px;
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-right: 8px;
+    background-color: #3b63e2;
+}
+#arrowdownlogo{
+    margin-top: 8px;
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-right: 30%;
+    background-color: #3b63e2;
+}
+/*TOP BAR END*/
+
+/*RIGHT FRIENDS BAR Main page */
+#friendslist {
+    position: fixed;
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 11%;
+    margin-left: 88.6%;
+    margin-top: 32px;
+    border-left: 2px solid #949494;
+}
+#yourgamesrightbar {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 9%;
+    float: left;
+}
+#yourgamesrightbar2 {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 9%;
+    float: left;
+}
+.right-friends-bar-games-logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 15px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+.yourgames {
+    margin-top: 5px;
+    margin-left: 5px;
+    clear: left;
+    font-family: cursive;
+}
+.yourgamesmore {
+    margin-top: -40px;
+    margin-right: 5px;
+    font-family: cursive;
+    font-size: small;
+    float: right;
+}
+#bigfriendslist {
+    background-color: aqua;
+    width: 100%;
+    height: 75%;
+    float: left;
+    overflow-y: scroll;
+    }
+.right-friends-name-and-picture {
+    width: 100%;
+    height: 5.5%;
+    float: left;
+}
+.Right-bar-friend-picture {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+.friends-name-right-list {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.friend-online-indicator {
+    float: right;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+#bottom-right-search-bar {
+    background-color: white;
+    float: left;
+    width: 100%;
+    height: 2.9%;
+}
+#searchicon-bottom-right {
+    float:left;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: white;
+}
+#Search-bot-right-text {
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-family: cursive sans-serif;
+    background-color: white;
+}
+#bottom-rright-options-button {
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+#bottom-right-new-message-icon {
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+/*Mid Right SUGGESTIO BAR Main page */
+
+#Sugestions-mid-right-bar {
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 55%;
+    background-color: white;
+    border: solid 1px #cdcdcd;
+    width: 15%;
+    height: 50%;
+}
+.event-and-invite-divs {
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    margin-top: 2px;
+}
+#sugested-groups-text-div {
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    margin-top: 2px;
+}
+#calendar-mic {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background-color: white;
+}
+#event-invite-txt {
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: white;
+}
+#gift-mic-icon {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background-color: white;
+}
+#gift-friend-name {
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: white;
+}
+#sougested-groups-txt {
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px;
+    background-color: white;
+}
+.suggested-groups-div {
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    margin-top: 2px;
+}
+.group-image-big {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+}
+.join-button-groups {
+    width: 20%;
+    float: right;
+    margin-right: 5px;
+    background-color: white;
+}
+.nume-grup {
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    background-color: white;
+}
+.numar-membrii {
+    margin-top: 10px;
+    margin-left: -108px;
+    position: absolute;
+    background-color: white;
+}
+#see-all-groups {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3b63e2;
+    background-color: white;
+}
+
+/*Left list Main page*/
+
+#main-page-left-list {
+    width: 10%;
+    height: 120%;
+    background-color: #e8e8e8;
+    float: left;
+    margin-top: 50px;
+    margin-left: 19%;
+    position: absolute;
+}
+.left-bar-solo-stat {
+    float: left;
+    width: 100% ;
+    height: 2.5%;
+    margin-top: 1px;
+    background-color: #e8e8e8;
+}
+.small-phoo-left-bar-solo-div {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    background-color: #e8e8e8;
+}
+.left-bar-text {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #e8e8e8;
+}
+.List-title-left-bar {
+    float: left;
+    width: 100% ;
+    height: 2.5%;
+    background-color: #21ff13;
+    margin-top: 1px;
+    background-color: #e8e8e8;
+}
+.List-title-text-left-bar {
+    font-size: small;
+    font-family: "Arial Black" sans-serif;
+    color: #949494;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: #e8e8e8;
+}
+
+/* Main content Main Page */
+
+#Main-Content-Main-page-general-div {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 29%;
+    float: left;
+    width: 25%;
+    height: 200%;
+    background-color: #e8e8e8;
+}
+/* What's on your mind- main page - center-mid */
+#Whats-on-your-mind-main-paage-mid {
+    width: 100%;
+    height: 7.5%;
+    float: left;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-top {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-mid {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.mid-top-top-buttons-main-page {
+    height: 100%;
+    width: 33%;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+.small-phoo-mid-top-top-buttons {
+    height:75%;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-right: 5px;
+    float: left;
+    background-color: white;
+}
+.text-mid-top-top-button {
+    font-family: Arial sans-serif;
+    margin-left: 5px;
+    color: #3b63e2;
+    margin-top: 7px;
+    float: left;
+    background-color: white;
+}
+#my-photo-Whats-on-your-mind-main-paage-mid-mid {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+#whats-on-your-mind {
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: Arial sans-serif;
+    color: #cdcdcd;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    background-color: white;
+}
+.Whats-on-your-mind-main-paage-mid-bottom-icons {
+    height: 80%;
+    margin-left: 10px;
+    margin-top: 3px;
+    float: left;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom-friends-button {
+    height: 80%;
+    margin-right: 5px;
+    margin-top: 3px;
+    float: right;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom-friends-button-friendrequestbutton {
+    margin-left: 5px;
+    float: left;
+    margin-top: 3px;
+    height: 80%;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom-friends-button-friends-txt {
+    margin-left: 5px;
+    float: left;
+    margin-top: 3px;
+    font-family: Arial sans-serif;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom-friends-button-sageata {
+    margin-right: 2px;
+    margin-top: 2px;
+    float: right;
+    height: 80%;
+    background-color: white;
+}
+#Whats-on-your-mind-main-paage-mid-bottom-post-button {
+    float: right;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+    height: 80%;
+    background-color: white;
+}
+#post-button-simple-blue {
+    font-family: Arial sans-serif;
+    margin-left: 8px;
+    margin-right: 8px;
+    float: left;
+    margin-top: 3px;
+    background-color: white;
+}
+/* Main page post model 1  */
+.main-page-post-model-1 {
+    float: left;
+    margin-top: 3%;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+.contact-img-name-and-post-time {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    height: 10%;
+    float: left;
+    position: relative;
+}
+.user-writen-status {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    height: 10%;
+    float: left;
+}
+.main-post-photo {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    height: 65%;
+    float: left;
+}
+.number-of-veiws {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    float: left;
+}
+.like-comments-shades {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    height: 7%;
+    float: left;
+}
+.like-comment-share-buttons {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    height: 7%;
+    float: left;
+}
+.small-photo-user-that-posted {
+    height: 80%;
+    width: 45px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5px;
+    background-color: white;
+}
+.name-of-the-user-that-posted {
+    font-family: "Arial Black";
+    font-size: small;
+    color: blue;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+.post-time-txt {
+    font-family: sans-serif;
+    font-size: small;
+    color: #898797;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: white;
+}
+.user-writen-status-txt {
+    margin-left: 5px;
+    margin-top: 15px;
+    background-color: white;
+}
+.main-post-photo-picture {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.like-button-circle {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+.number-of-likes-txt {
+    font-family: sans-serif;
+    color: #898797;
+    margin-top: 15px;
+    margin-left: 5px;
+    float: left;
+    background-color: white;
+}
+.number-of-shares-text {
+    font-family: sans-serif;
+    color: #898797;
+    margin-top: 15px;
+    margin-right: 5px;
+    float: right;
+    background-color: white;
+}
+.number-of-comments-text {
+    font-family: sans-serif;
+    color: #898797;
+    margin-top: 15px;
+    margin-right: 5px;
+    float: right;
+    background-color: white;
+}
+.like-comment-share-actual-buttons {
+    height: 60%;
+    width: 22%;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.like-comment-share-buttons-icons {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background-color: white;
+}
+.Like-comment-share-grey-text {
+    float: left;
+    margin-left: 3px;
+    margin-top: 4px;
+    font-family: sans-serif;
+    color: #898797;
+    background-color: white;
+}
+.main-post-photo-picture2 {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
